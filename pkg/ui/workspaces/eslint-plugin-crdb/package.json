@@ -9,7 +9,7 @@
   "license": "CockroachDB Software License",
   "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "devDependencies": {
     "@bazel/typescript": "5.5.0",
